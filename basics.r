@@ -24,12 +24,3 @@ print(class(charToRaw('sample')))
 
 print(is.integer(4))
 print(is.integer(4L))
-
-
-# ARITHMETIC OPERATORS
-print(4 + 5)
-print(4 - 5)
-print(4 * 5)
-print(4 / 5)
-print(5 %% 4)
-print(4 ^ 2)
