@@ -26,8 +26,9 @@ print(customerData)
 
 # add a column
 lastNames = c('Doe', 'Anderson', 'Berenyi', 'Lam')
-customerData = cbind(customerData, lastNames)
+customerData = cbind(customerData, lastNames) # columnBind
 print(customerData)
 
+# filter customers
 isOlder30 = customerData[customerData$age > 30, ]
 print(isOlder30)
